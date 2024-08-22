@@ -1,0 +1,70 @@
+@media  screen and (min-width:1000px) {
+    .carousel-inner,.carousel-item{
+        height: 80vh;
+    
+    }
+    .float{
+        position: absolute;
+        bottom: -115px;
+        z-index: 1;
+        padding-top: 40px;
+        
+        
+    }
+    .carousel-caption{
+        bottom: 100px;
+    }
+}
+@media screen and (max-width:800px){
+    .carousel-caption h2{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+        color: orange;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+}
+@media screen and (max-width:576px) {
+    .carousel-caption{
+        padding: 0 !important;
+    }
+    .carousel-caption h2{
+        font-size: 22px;
+    }
+    .carousel-caption p{
+        font-size: 15px;  
+    
+}
+.carousel-caption button{
+    margin-bottom: 13px;
+}
+.image img {
+    margin-top: 40px;
+    filter: grayscale(0);
+}
+.motto{
+    margin-top: -130px;
+}
+.content{
+    transform: rotate(0deg);
+}
+.types img{
+    filter: grayscale(0);
+}
+    
+}
+
+@media screen and (max-width:540px){
+    .brand {
+        font-size: 15px;
+        font-weight: bold;
+      }
+     
+}
